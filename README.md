@@ -107,3 +107,11 @@ Now let's compare the accuracy of these models
 compare_accu <- data.frame(conmx_dt, conmx_gbm, conmx_lda, conmx_rf)
 compare_accu
 ```
+                conmx_dt conmx_gbm conmx_lda  conmx_rf
+Accuracy       0.6617385 1.0000000 0.9998725 0.9998725
+Kappa          0.5694745 1.0000000 0.9998388 0.9998388
+AccuracyLower  0.6511474 0.9995299 0.9992901 0.9992901
+AccuracyUpper  0.6722092 1.0000000 0.9999968 0.9999968
+AccuracyNull   0.2844762 0.2844762 0.2844762 0.2844762
+AccuracyPValue 0.0000000 0.0000000 0.0000000 0.0000000
+McnemarPValue        NaN       NaN       NaN       NaN
