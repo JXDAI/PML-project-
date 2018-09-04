@@ -1,13 +1,7 @@
 # PML_Project
 This is the Github readme file, please refer to PML.html for the R mark down 
 ---
-title: "Machine learning models for activity recognition"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Get the data 
 
