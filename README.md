@@ -107,7 +107,7 @@ confusionMatrix(pd_rf, testing_data$classe)
 conmx_rf <- confusionMatrix(pd_rf, testing_data$classe)$overall
 ```
 
-#Conclusion 
+# Conclusion 
 Now let's compare the accuracy of these models 
 ```{r}
 compare_accu <- data.frame(conmx_dt, conmx_gbm, conmx_lda, conmx_rf)
