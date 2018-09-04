@@ -1,5 +1,5 @@
 # PML_Project
-This is the final project of practical machine learning 
+This is the Github readme file, please refer to PML.html for the R mark down 
 ---
 title: "Machine learning models for activity recognition"
 output: html_document
